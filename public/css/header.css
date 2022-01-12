@@ -1,0 +1,156 @@
+.mid-nav
+{
+  position: relative;
+  background-image: url('/images/banner/top-banner-2.JPG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.15rem 0rem;
+}
+
+.mid-nav_text
+{
+  color: #a50b0b;
+  line-height: 1.2rem;
+  font-size: 15px;
+  word-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.mid-nav_text_md
+{
+  font-size: 21px;
+  line-height: 1.5rem;
+}
+
+.mid-nav_overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #ffffff9c; */
+}
+
+.mid-nav_date
+{
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  padding: 2px 5px;
+  color: rgb(80, 80, 80);
+}
+
+.mid-nav_update
+{
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  padding: 2px 5px;
+  color: rgb(80, 80, 80);
+}
+
+.main-nav
+{
+  background-color: rgb(0, 110, 175);
+  padding: 0rem 1rem !important;
+}
+
+.main-nav_content
+{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  list-style: none;
+  padding: 0px !important;
+  color: #fafafa;
+}
+
+.main-nav_content li
+{
+  padding: 7px 0px;
+  border-right: 1px solid #fff;
+}
+
+.main-nav_content li a
+{
+  padding: 10px 17px 9px;
+  color: #fafafa; 
+  text-decoration: none;
+  transition: 0.3s all ease;
+  font-size: 14px;
+}
+
+.main-nav_content li a:hover, .nav-active
+{
+  background-color: #00446c;
+  color: #fff !important;
+  transition: 0.3s all ease;
+}
+
+.marquee
+{
+  background-color: rgb(239 239 239);
+  /* background-image: linear-gradient(180deg, rgb(211 246 189), #d6f6c26b); */
+  /* background-image: linear-gradient(180deg, rgb(220 241 207 / 46%), #85c55e); */
+  font-size: 14px;
+  padding: 4px 0px;
+  color: #ba2020;
+}
+
+.flash-news
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  background-color: #ba2020;
+  color: #fafafa;
+  padding: 4px 7px;
+  z-index: 1;
+}
+
+
+/* nav dropdown  */
+.dd-nav {
+  position: relative;
+}
+
+.dd-nav:hover > .dd-nav-content {
+  visibility: visible; 
+  opacity: 1; 
+  transition: 0.3s all ease;
+}
+
+.dd-nav-content {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  z-index: 1;
+  visibility: hidden; 
+  opacity: 0; 
+  transition: 0.3s all ease;
+}
+
+.dd-nav-content ul {
+  list-style: none;
+  min-width: 235px;
+}
+
+.dd-nav-content ul li {
+  border-bottom: 1px solid rgba(126, 126, 126, 0.432);
+}
+
+.dd-nav-content ul li:hover {
+  border-bottom: 1px solid #ba2020;
+}
+
+.dd-nav-content ul li a{
+  color: #333;
+}
+
+.dd-nav-content ul li a:hover{
+  background-color: transparent !important;
+  color: #00446c !important;
+}

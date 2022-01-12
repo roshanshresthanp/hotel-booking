@@ -1,0 +1,19 @@
+/* Dropify */
+.dropify-wrapper
+{
+  height: 125px !important;
+}
+
+.spad-sm
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cus-center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+}
